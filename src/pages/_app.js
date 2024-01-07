@@ -27,6 +27,8 @@ import { AuthProvider } from "../contexts/JWTContext";
 // import { AuthProvider } from "../contexts/Auth0Context";
 // import { AuthProvider } from "../contexts/CognitoContext";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const inter = Inter({ subsets: ["latin"] });
 
 const clientSideEmotionCache = createEmotionCache();

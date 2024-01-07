@@ -43,6 +43,7 @@
     "@redux-devtools/extension": "3.2.6",
     "@reduxjs/toolkit": "1.9.7",
     "@svgr/webpack": "6.5.1",
+    "@vercel/speed-insights": "^1.0.2",
     "amazon-cognito-identity-js": "5.2.14",
     "animate.css": "4.1.1",
     "apexcharts": "3.44.0",
