@@ -15,6 +15,7 @@ function Presentation() {
   return (
     <React.Fragment>
       <AppBar />
+      <Introduction />
       <Demos />
       <Testimonial />
       <Integrations />
