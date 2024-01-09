@@ -35,7 +35,7 @@ const pagesSection = [
       },
     ],
   },
-  {
+  /*{
     href: "/pages",
     icon: Layout,
     title: "Pages",
@@ -61,14 +61,14 @@ const pagesSection = [
         title: "Blank Page",
       },
     ],
-  },
+  },*/
   {
     href: "/projects",
     icon: Briefcase,
     title: "Projects",
     badge: "8",
   },
-  {
+  /*{
     href: "/orders",
     icon: ShoppingCart,
     title: "Orders",
@@ -87,7 +87,7 @@ const pagesSection = [
         title: "Detail",
       },
     ],
-  },
+  },*/
   {
     href: "/tasks",
     icon: CheckSquare,
@@ -99,7 +99,7 @@ const pagesSection = [
     icon: Calendar,
     title: "Calendar",
   },
-  {
+  /*{
     href: "/auth",
     icon: Users,
     title: "Auth",
@@ -125,10 +125,10 @@ const pagesSection = [
         title: "500 Page",
       },
     ],
-  },
+  },*/
 ];
 
-const elementsSection = [
+/*const elementsSection = [
   {
     href: "/components",
     icon: Grid,
@@ -287,7 +287,7 @@ const elementsSection = [
       },
     ],
   },
-];
+];*/
 
 const docsSection = [
   {
@@ -308,12 +308,12 @@ const navItems = [
     title: "Pages",
     pages: pagesSection,
   },
-  {
+  /*{
     title: "Elements",
     pages: elementsSection,
-  },
+  },*/
   {
-    title: "Mira Pro",
+    title: "IPOInsider",
     pages: docsSection,
   },
 ];
