@@ -55,7 +55,7 @@ const AppBarComponent = () => (
                   href="/dashboard/analytics"
                   target="_blank"
                 >
-                  Live Preview
+                  Features
                 </Button>
                 <Button
                   ml={2}
@@ -64,7 +64,7 @@ const AppBarComponent = () => (
                   href="/documentation/welcome"
                   target="_blank"
                 >
-                  Documentation
+                  Pricing
                 </Button>
                 <Button
                   ml={2}
@@ -73,7 +73,7 @@ const AppBarComponent = () => (
                   href="/documentation/support"
                   target="_blank"
                 >
-                  Support
+                  Contact Us
                 </Button>
               </Box>
               <Button
@@ -83,7 +83,7 @@ const AppBarComponent = () => (
                 href="https://mui.com/store/items/mira-pro-react-material-admin-dashboard/"
                 target="_blank"
               >
-                Buy Now
+                Login
               </Button>
             </Grid>
           </Grid>
