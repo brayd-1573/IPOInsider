@@ -42,7 +42,7 @@ const AppBarComponent = () => (
           <Grid container alignItems="center">
             <Grid item>
               <Brand>
-                <BrandIcon /> Mira
+                <BrandIcon /> IPOInsider
               </Brand>
             </Grid>
             <Grid item xs />
@@ -61,7 +61,7 @@ const AppBarComponent = () => (
                   ml={2}
                   color="inherit"
                   component={Link}
-                  href="/documentation/welcome"
+                  href="/pages/pricing"
                   target="_blank"
                 >
                   Pricing
@@ -80,7 +80,7 @@ const AppBarComponent = () => (
                 ml={2}
                 color="primary"
                 variant="contained"
-                href="https://mui.com/store/items/mira-pro-react-material-admin-dashboard/"
+                href="/auth/sign-in"
                 target="_blank"
               >
                 Login
