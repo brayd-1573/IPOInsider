@@ -97,7 +97,7 @@ const pagesSection = [
   {
     href: "/calendar",
     icon: Calendar,
-    title: "Calendar",
+    title: "IPO Calendar",
   },
   /*{
     href: "/auth",
