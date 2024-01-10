@@ -307,7 +307,7 @@ const docsSection = [
     title: "Pricing",
   },
   {
-    href: "/settings",
+    href: "/documentation/welcome",
     icon: Settings,
     title: "Settings",
   },
