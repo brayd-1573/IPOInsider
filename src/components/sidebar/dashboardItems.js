@@ -91,7 +91,7 @@ const pagesSection = [
     href: "/projects",
     icon: Cpu,
     title: "Prediction Model",
-    badge: "Beta",
+    badge: "1",
   },
   {
     href: "/tasks",
@@ -315,7 +315,7 @@ const docsSection = [
 
 const navItems = [
   {
-    title: "Pages",
+    title: "Main Features",
     pages: pagesSection,
   },
   /*{
@@ -323,7 +323,7 @@ const navItems = [
     pages: elementsSection,
   },*/
   {
-    title: "IPOInsider",
+    title: "Account Management",
     pages: docsSection,
   },
 ];
