@@ -12,7 +12,7 @@ const pagesSection = [
   {
     href: "/dashboard",
     icon: Activity,
-    title: "Dashboard",
+    title: "Dashboards",
     children: [
       {
         href: "/dashboard/default",
