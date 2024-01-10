@@ -1,23 +1,11 @@
 import {
   BookOpen,
-  Briefcase,
   Calendar,
-  CheckSquare,
   CreditCard,
-  Grid,
-  Heart,
-  Layout,
-  List,
-  Map,
-  ShoppingCart,
-  PieChart,
-  Sliders,
-  Users,
   Settings,
   Tv,
   Activity,
   Cpu,
-  CreditCard,
 } from "react-feather";
 
 const pagesSection = [
@@ -91,7 +79,7 @@ const pagesSection = [
     href: "/projects",
     icon: Cpu,
     title: "Prediction Model",
-    badge: "1",
+    badge: "Beta",
   },
   {
     href: "/tasks",
