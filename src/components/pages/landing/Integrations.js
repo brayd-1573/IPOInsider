@@ -39,10 +39,10 @@ function Integrations() {
     <Wrapper py={20}>
       <Container>
         <TypographyOverline variant="body2" gutterBottom>
-          Integrations
+          Data Integrations
         </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
-          Launch faster with ready-to-deploy integrations
+          Reliable and Accurate Data from Trusted Market Sources
         </Typography>
 
         <Box my={7}>
@@ -64,80 +64,17 @@ function Integrations() {
               />
             </Brand>
           </Tooltip>
-          <Tooltip title="React v18">
-            <Brand>
-              <BrandIcon
-                alt="React"
-                src="/static/img/brands/react.svg"
-                style={{ height: "40px" }}
-              />
-            </Brand>
-          </Tooltip>
-          <Tooltip title="Redux">
-            <Brand>
-              <BrandIcon
-                alt="Redux"
-                src="/static/img/brands/redux.svg"
-                style={{ height: "36px", margin: "2px 0" }}
-              />
-            </Brand>
-          </Tooltip>
-          <Tooltip title="Firebase Authentication">
-            <Brand>
-              <BrandIcon
-                alt="Firebase Authentication"
-                src="/static/img/brands/firebase.svg"
-                style={{ height: "40px" }}
-              />
-            </Brand>
-          </Tooltip>
-          <Tooltip title="Amazon Cognito">
-            <Brand>
-              <BrandIcon
-                alt="Amazon Cognito"
-                src="/static/img/brands/cognito.svg"
-                style={{ height: "40px" }}
-              />
-            </Brand>
-          </Tooltip>
-          <Tooltip title="Auth0">
-            <Brand>
-              <BrandIcon
-                alt="Auth0"
-                src="/static/img/brands/auth0.svg"
-                style={{ height: "40px" }}
-              />
-            </Brand>
-          </Tooltip>
-          <Tooltip title="JSON Web Token">
-            <Brand>
-              <BrandIcon
-                alt="JWT"
-                src="/static/img/brands/jwt.svg"
-                style={{ height: "40px" }}
-              />
-            </Brand>
-          </Tooltip>
-          <Tooltip title="ESLint">
-            <Brand>
-              <BrandIcon
-                alt="eslint "
-                src="/static/img/brands/eslint.svg"
-                style={{ height: "40px" }}
-              />
-            </Brand>
-          </Tooltip>
         </Box>
         <Box>
           <Button
             component={Link}
-            href="/documentation/welcome"
+            href="/auth/sign-in"
             target="_blank"
             variant="contained"
             color="secondary"
             size="large"
           >
-            Open Documentation
+            Get Started
             <ArrowForward />
           </Button>
         </Box>
