@@ -13,12 +13,17 @@ import {
   PieChart,
   Sliders,
   Users,
+  Settings,
+  Tv,
+  Activity,
+  Cpu,
+  CreditCard,
 } from "react-feather";
 
 const pagesSection = [
   {
     href: "/dashboard",
-    icon: Sliders,
+    icon: Activity,
     title: "Dashboard",
     children: [
       {
@@ -62,12 +67,6 @@ const pagesSection = [
       },
     ],
   },*/
-  {
-    href: "/projects",
-    icon: Briefcase,
-    title: "Projects",
-    badge: "8",
-  },
   /*{
     href: "/orders",
     icon: ShoppingCart,
@@ -89,15 +88,27 @@ const pagesSection = [
     ],
   },*/
   {
+    href: "/projects",
+    icon: Cpu,
+    title: "Prediction Model",
+    badge: "Beta",
+  },
+  {
     href: "/tasks",
-    icon: CheckSquare,
-    title: "Tasks",
+    icon: BookOpen,
+    title: "Research",
     badge: "17",
   },
   {
     href: "/calendar",
     icon: Calendar,
     title: "IPO Calendar",
+  },
+  {
+    href: "/projects",
+    icon: Tv,
+    title: "News",
+    badge: "8",
   },
   /*{
     href: "/auth",
@@ -292,14 +303,13 @@ const pagesSection = [
 const docsSection = [
   {
     href: "/documentation/welcome",
-    icon: BookOpen,
-    title: "Documentation",
+    icon: CreditCard,
+    title: "Pricing",
   },
   {
-    href: "/changelog",
-    icon: List,
-    title: "Changelog",
-    badge: "v4.5.0",
+    href: "/settings",
+    icon: Settings,
+    title: "Settings",
   },
 ];
 

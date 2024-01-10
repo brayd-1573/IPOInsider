@@ -55,7 +55,7 @@ const AppBarComponent = () => (
                   href="/dashboard/analytics"
                   target="_blank"
                 >
-                  Features
+                  Dashboard
                 </Button>
                 <Button
                   ml={2}
