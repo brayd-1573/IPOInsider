@@ -50,7 +50,7 @@ function Integrations() {
             <Brand>
               <BrandIcon
                 alt="MUI"
-                src="/static/img/brands/material-ui.svg"
+                src="/static/img/brands/alphaVantageLogo.svg"
                 style={{ height: "34px", margin: "3px 0" }}
               />
             </Brand>
