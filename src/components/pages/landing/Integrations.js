@@ -59,7 +59,7 @@ function Integrations() {
             <Brand>
               <BrandIcon
                 alt="Bloomberg"
-                src="/static/img/brands/bloomberg.png"
+                src="/static/img/brands/bloomberg.svg"
                 style={{ height: "40px" }}
               />
             </Brand>
@@ -87,6 +87,15 @@ function Integrations() {
               <BrandIcon
                 alt="EOD Historical Data"
                 src="/static/img/brands/eodhd.png"
+                style={{ height: "40px" }}
+              />
+            </Brand>
+          </Tooltip>
+          <Tooltip title="IEX Cloud">
+            <Brand>
+              <BrandIcon
+                alt="IEX Cloud"
+                src="/static/img/brands/iexcloud.svg"
                 style={{ height: "40px" }}
               />
             </Brand>
