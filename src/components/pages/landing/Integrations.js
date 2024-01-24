@@ -50,7 +50,7 @@ function Integrations() {
             <Brand>
               <BrandIcon
                 alt="Alpha Vantage"
-                src="/static/img/brands/alphaVantageLogo.svg"
+                src="/static/img/brands/alphavantage.svg"
                 style={{ height: "34px", margin: "3px 0" }}
               />
             </Brand>
@@ -60,6 +60,33 @@ function Integrations() {
               <BrandIcon
                 alt="Bloomberg"
                 src="/static/img/brands/bloomberg.png"
+                style={{ height: "40px" }}
+              />
+            </Brand>
+          </Tooltip>
+          <Tooltip title="Finnhub">
+            <Brand>
+              <BrandIcon
+                alt="Finnhub Stock APIs"
+                src="/static/img/brands/finnhub.png"
+                style={{ height: "40px" }}
+              />
+            </Brand>
+          </Tooltip>
+          <Tooltip title="Yahoo Finance">
+            <Brand>
+              <BrandIcon
+                alt="Yahoo Finance"
+                src="/static/img/brands/yahoofinance.svg"
+                style={{ height: "40px" }}
+              />
+            </Brand>
+          </Tooltip>
+          <Tooltip title="EOD Historical Data">
+            <Brand>
+              <BrandIcon
+                alt="EOD Historical Data"
+                src="/static/img/brands/eodhd.png"
                 style={{ height: "40px" }}
               />
             </Brand>
