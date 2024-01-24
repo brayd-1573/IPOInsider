@@ -46,20 +46,20 @@ function Integrations() {
         </Typography>
 
         <Box my={7}>
-          <Tooltip title="MUI v5">
+          <Tooltip title="Alpha Vantage">
             <Brand>
               <BrandIcon
-                alt="MUI"
+                alt="Alpha Vantage"
                 src="/static/img/brands/alphaVantageLogo.svg"
                 style={{ height: "34px", margin: "3px 0" }}
               />
             </Brand>
           </Tooltip>
-          <Tooltip title="Next.js v14">
+          <Tooltip title="Bloomberg">
             <Brand>
               <BrandIcon
-                alt="Next.js"
-                src="/static/img/brands/nextjs.svg"
+                alt="Bloomberg"
+                src="/static/img/brands/bloomberg.png"
                 style={{ height: "40px" }}
               />
             </Brand>
