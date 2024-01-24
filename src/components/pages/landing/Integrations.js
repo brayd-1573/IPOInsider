@@ -68,7 +68,7 @@ function Integrations() {
             <Brand>
               <BrandIcon
                 alt="Finnhub Stock APIs"
-                src="/static/img/brands/finnhub.png"
+                src="/static/img/brands/finnhub.svg"
                 style={{ height: "40px" }}
               />
             </Brand>
@@ -86,7 +86,7 @@ function Integrations() {
             <Brand>
               <BrandIcon
                 alt="EOD Historical Data"
-                src="/static/img/brands/eodhd.png"
+                src="/static/img/brands/eodhd.svg"
                 style={{ height: "40px" }}
               />
             </Brand>
