@@ -38,8 +38,7 @@ function JoinUs() {
               Discover Your Next Investment Opportunity with IPO Insider
             </Typography>
             <Subtitle variant="h5" gutterBottom>
-              Don't miss out on valuable insights. 
-              Join us and start making informed investment decisions today!
+              Don't miss out on valuable insights. Join us and start making informed investment decisions today!
             </Subtitle>
             <Spacer mb={4} />
 
