@@ -35,11 +35,11 @@ function JoinUs() {
         <Grid container alignItems="center" justifyContent="center">
           <Grid item xs={12} md={6} lg={6} xl={6}>
             <Typography variant="h2" gutterBottom>
-              Start analyzing with IPOInsider today
+              Discover Your Next Investment Opportunity with IPO Insider
             </Typography>
             <Subtitle variant="h5" gutterBottom>
-              Stop wasting time building your application from scratch. Mira Pro
-              is fast, extendable and fully customizable.
+              Don't miss out on valuable insights. 
+              Join us and start making informed investment decisions today!
             </Subtitle>
             <Spacer mb={4} />
 
@@ -50,7 +50,7 @@ function JoinUs() {
               size="large"
               target="_blank"
             >
-              Use IPOInsider
+              Use IPO Insider
             </Button>
           </Grid>
         </Grid>
