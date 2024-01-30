@@ -77,14 +77,19 @@ function FAQ() {
                 id="faq1-header"
               >
                 <Typography variant="subtitle1">
-                  Does this product support Next.js / Create React App?
+                  What is IPO Insider and how can it help me?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                  Yes, Mira is available for both Next.js and Create React App
-                  (React Scripts). Both versions are included in the package and
-                  instantly available for download after the purchase.
+                  IPO Insider is a comprehensive analytics platform designed to
+                  provide in-depth insights into upcoming and past Initial
+                  Public Offerings (IPOs). It offers real-time data, machine
+                  learning predictions, and research tools to help investors
+                  make informed decisions about IPO investments. By leveraging
+                  data from reliable sources and advanced analytics, IPO Insider
+                  aims to give users a competitive edge in the dynamic IPO
+                  market.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -95,21 +100,18 @@ function FAQ() {
                 id="faq2-header"
               >
                 <Typography variant="subtitle1">
-                  Can I use this template for my client?
+                  How accurate are the predictions made by the IPO Insider's
+                  machine learning model?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                  Yes, the marketplace license allows you to use this theme in
-                  any type of end product. For more information on licenses,{" "}
-                  <Link
-                    href="https://material-ui.com/store/license/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    click here
-                  </Link>
-                  .
+                  Our machine learning model is trained on historical IPO data
+                  and continuously updated with new information. While we strive
+                  for accuracy, it's important to remember that predictions are
+                  based on probabilities and past trends, and cannot guarantee
+                  future outcomes. We recommend using our predictions as one of
+                  several tools in your investment decision-making process.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -120,14 +122,16 @@ function FAQ() {
                 id="faq3-header"
               >
                 <Typography variant="subtitle1">
-                  Does this product support TypeScript?
+                  Can I access historical IPO data through IPO Insider?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                  Yes, the TypeScript version is included in the Standard Plus
-                  and Extended License. The default (JavaScript) version is
-                  available on all licenses.
+                  Yes, IPO Insider provides access to extensive historical IPO
+                  data. This includes detailed information about company
+                  profiles, IPO dates, financials, and performance metrics
+                  post-IPO. This historical data is crucial for understanding
+                  market trends and making informed decisions.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -138,13 +142,16 @@ function FAQ() {
                 id="faq4-header"
               >
                 <Typography variant="subtitle1">
-                  Does this product work with npm / yarn?
+                  Is IPO Insider suitable for first-time IPO investors?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                  Yes, Mira has been thoroughly tested with npm and yarn (LTS
-                  versions).
+                  Absolutely! IPO Insider is designed to cater to both
+                  experienced investors and beginners. The platform offers
+                  user-friendly dashboards, educational resources, and
+                  straightforward analytics, making it easy for first-time
+                  investors to navigate the IPO landscape.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -155,19 +162,16 @@ function FAQ() {
                 id="faq5-header"
               >
                 <Typography variant="subtitle1">
-                  Are design assets (Figma, Sketch) included?
+                  How often is the data on IPO Insider updated?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                  Yes, design assets (Figma and Sketch) are included in the
-                  Standard Plus and Extended License. Only a basic
-                  implementation of each component is included, which enables
-                  you to combine them however you like. Besides the components,
-                  the resources contain the following pages: analytics
-                  dashboard, default dashboard, settings, pricing, profile,
-                  projects, invoice, tasks, calendar month view, calendar day
-                  view, sign in, sign up, and an error page.
+                  We update our data regularly to ensure our users have the most
+                  current information. IPO data is refreshed daily, while our
+                  machine learning models and market news are updated in
+                  real-time to reflect the latest market conditions and
+                  insights.
                 </Typography>
               </AccordionDetails>
             </Accordion>
