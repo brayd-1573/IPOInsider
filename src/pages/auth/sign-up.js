@@ -36,7 +36,7 @@ function SignUp() {
           Get started
         </Typography>
         <Typography component="h2" variant="body1" align="center">
-          Start creating the best possible user experience for you customers
+          Start making informed investment decisions with IPO Insider
         </Typography>
 
         <SignUpComponent />
