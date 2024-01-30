@@ -70,7 +70,7 @@ function FAQ() {
 
         <Grid container alignItems="center" justifyContent="center">
           <Grid item xs={12} xl={8}>
-            <Accordion defaultExpanded={true}>
+            <Accordion>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="faq1-content"
