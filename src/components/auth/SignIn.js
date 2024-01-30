@@ -27,7 +27,7 @@ function SignIn() {
   return (
     <Formik
       initialValues={{
-        email: "example@gmail.com",
+        email: "",
         password: "",
         submit: false,
       }}
