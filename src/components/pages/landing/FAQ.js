@@ -82,7 +82,7 @@ function FAQ() {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                IPO Insider is a comprehensive analytics platform designed to provide in-depth insights into upcoming and past Initial Public Offerings (IPOs). 
+                IPO Insider is a comprehensive analytics platform designed to provide in-depth insights into upcoming and past Initial Public Offerings. 
                 It offers real-time data, machine learning predictions, and research tools to help investors make informed decisions about IPO investments. 
                 By leveraging data from reliable sources and advanced analytics, IPO Insider aims to give users a competitive edge in the dynamic IPO market.
                 </Typography>
@@ -95,13 +95,13 @@ function FAQ() {
                 id="faq2-header"
               >
                 <Typography variant="subtitle1">
-                  How accurate are the predictions made by the IPO Insider's machine learning model?
+                  How accurate are the predictions made by the IPO Insiders machine learning model?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
                   Our machine learning model is trained on historical IPO data and continuously updated with new information. 
-                  While we strive for accuracy, it's important to remember that predictions are based on probabilities and past trends, and cannot guarantee future outcomes. 
+                  While we strive for accuracy, its important to remember that predictions are based on probabilities and past trends, and cannot guarantee future outcomes. 
                   We recommend using our predictions as one of several tools in your investment decision-making process.
                 </Typography>
               </AccordionDetails>
