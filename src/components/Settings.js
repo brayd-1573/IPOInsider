@@ -124,7 +124,7 @@ function Demo({ title, themeVariant }) {
 function Demos() {
   return (
     <Wrapper>
-      <Heading>Select a theme</Heading>
+      <Heading>Select a Theme</Heading>
 
       <Box px={4} my={3}>
         <Alert icon={false} severity="info">
