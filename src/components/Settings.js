@@ -124,7 +124,7 @@ function Demo({ title, themeVariant }) {
 function Demos() {
   return (
     <Wrapper>
-      <Heading>Select a demo</Heading>
+      <Heading>Select a theme</Heading>
 
       <Box px={4} my={3}>
         <Alert icon={false} severity="info">
@@ -142,26 +142,6 @@ function Demos() {
           <Demo title="Green" themeVariant={THEMES.GREEN} />
           <Demo title="Indigo" themeVariant={THEMES.INDIGO} />
         </Grid>
-      </Box>
-
-      <Box my={3} mx={4}>
-        <Link href="/documentation/welcome">
-          <Button variant="outlined" size="large" fullWidth={true}>
-            Documentation
-          </Button>
-        </Link>
-      </Box>
-      <Box my={3} mx={4}>
-        <Button
-          href="https://mui.com/store/items/mira-pro-react-material-admin-dashboard/"
-          variant="contained"
-          color="primary"
-          size="large"
-          target="_blank"
-          fullWidth={true}
-        >
-          Get Mira Pro
-        </Button>
       </Box>
     </Wrapper>
   );
