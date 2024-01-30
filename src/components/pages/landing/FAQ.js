@@ -57,14 +57,14 @@ function FAQ() {
     <Wrapper pt={20} pb={16}>
       <Container>
         <TypographyOverline variant="body2" gutterBottom>
-          Mira Pro
+          IPOInsider
         </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
           Frequently asked questions
         </Typography>
         <Typography variant="subtitle1" color="textSecondary" gutterBottom>
           The questions below have been selected from those most commonly asked
-          by our customers.
+          by our users.
         </Typography>
         <Spacer mb={8} />
 

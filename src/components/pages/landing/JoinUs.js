@@ -35,7 +35,7 @@ function JoinUs() {
         <Grid container alignItems="center" justifyContent="center">
           <Grid item xs={12} md={6} lg={6} xl={6}>
             <Typography variant="h2" gutterBottom>
-              Start building with Mira today
+              Start analyzing with IPOInsider today
             </Typography>
             <Subtitle variant="h5" gutterBottom>
               Stop wasting time building your application from scratch. Mira Pro
@@ -50,7 +50,7 @@ function JoinUs() {
               size="large"
               target="_blank"
             >
-              Get Mira Pro
+              Use IPOInsider
             </Button>
           </Grid>
         </Grid>
