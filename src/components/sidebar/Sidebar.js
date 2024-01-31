@@ -69,10 +69,7 @@ const Sidebar = ({ items, showFooter = true, ...rest }) => {
   return (
     <Drawer variant="permanent" {...rest}>
       <Brand component={Link} href="/">
-        <BrandIcon />{" "}
-        <Box ml={1}>
-          IPO Insider
-        </Box>
+        <BrandIcon /> <Box ml={1}>IPO Insider</Box>
       </Brand>
       <SidebarNav items={items} />
       {!!showFooter && <Footer />}

@@ -1,0 +1,2 @@
+prettier format
+npx prettier --write --end-of-line auto src/components/pages/landing/JoinUs.js
