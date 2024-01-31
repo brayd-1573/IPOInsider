@@ -71,7 +71,7 @@ const Sidebar = ({ items, showFooter = true, ...rest }) => {
       <Brand component={Link} href="/">
         <BrandIcon />{" "}
         <Box ml={1}>
-          IPOInsider <BrandChip label="PRO" />
+          IPO Insider
         </Box>
       </Brand>
       <SidebarNav items={items} />

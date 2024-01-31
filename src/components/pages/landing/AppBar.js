@@ -42,7 +42,7 @@ const AppBarComponent = () => (
           <Grid container alignItems="center">
             <Grid item>
               <Brand>
-                <BrandIcon /> IPOInsider
+                <BrandIcon /> IPO Insider
               </Brand>
             </Grid>
             <Grid item xs />
@@ -64,7 +64,7 @@ const AppBarComponent = () => (
                   href="/pages/pricing"
                   target="_blank"
                 >
-                  Pricing
+                  Features
                 </Button>
                 <Button
                   ml={2}

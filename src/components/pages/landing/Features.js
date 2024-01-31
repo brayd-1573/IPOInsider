@@ -79,7 +79,7 @@ function Features() {
           Features
         </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
-          Developers love Mira Pro
+          Analysts love IPO Insider
         </Typography>
         <Box mb={8} />
         <Grid container spacing={6}>
@@ -118,13 +118,13 @@ function Features() {
         <Box mt={4}>
           <Button
             component={Link}
-            href="/documentation/welcome"
+            href="/auth/sign-in"
             variant="contained"
             color="secondary"
             size="large"
             target="_blank"
           >
-            Open Documentation
+            Try IPO Insider
             <ArrowForward />
           </Button>
         </Box>
