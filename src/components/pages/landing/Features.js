@@ -124,7 +124,7 @@ function Features() {
             size="large"
             target="_blank"
           >
-            Try IPO Insider
+            Try our Features
             <ArrowForward />
           </Button>
         </Box>

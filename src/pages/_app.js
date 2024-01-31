@@ -46,8 +46,8 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
       <CacheProvider value={emotionCache}>
         <HelmetProvider>
           <Helmet
-            titleTemplate="%s | IPOInsider"
-            defaultTitle="IPOInsider - IPO Analytics"
+            titleTemplate="%s | IPO Insider"
+            defaultTitle="IPO Insider"
           />
           <Provider store={store}>
             <LocalizationProvider dateAdapter={AdapterDateFns}>
