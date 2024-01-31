@@ -8,12 +8,12 @@ import { spacing } from "@mui/system";
 import { ArrowForward as ArrowForwardIcon } from "@mui/icons-material";
 
 import {
-  Mail as MailIcon,
-  Code as CodeIcon,
-  Users as UsersIcon,
-  Figma as FigmaIcon,
-  BookOpen as BookOpenIcon,
-  PlusCircle as PlusCircleIcon,
+  Activity as ActivityIcon,
+  Cpu as CpuIcon,
+  BookOpen as BookIcon,
+  Calendar as CalendarIcon,
+  Tv as TvIcon,
+  Clock as ClockIcon,
 } from "react-feather";
 
 const Wrapper = styled.div`
@@ -84,32 +84,32 @@ function Features() {
         <Box mb={8} />
         <Grid container spacing={6}>
           <Feature
-            Icon={CodeIcon}
+            Icon={ActivityIcon}
             title="Modern Technology Stack"
             description="Mira is built to make your life easier. Theme provider, build tooling, documentation, and 400+ components. "
           />
           <Feature
-            Icon={PlusCircleIcon}
+            Icon={CpuIcon}
             title="Multiple Plugins"
             description="Various third-party plugins are fully integrated, like Chart.js, FullCalendar, WYSIWYG Editors, Formik and Yup."
           />
           <Feature
-            Icon={MailIcon}
+            Icon={BookIcon}
             title="Dev-to-Dev Support"
             description="Our themes are supported by specialists who provide quick and effective support. Usually an email reply takes <24h."
           />
           <Feature
-            Icon={UsersIcon}
+            Icon={CalendarIcon}
             title="Authentication Examples"
             description="The package comes with fully working authentication examples, including Firebase, Auth0, AWS Cognito and JWT."
           />
           <Feature
-            Icon={BookOpenIcon}
+            Icon={TvIcon}
             title="Detailed Documentation"
             description="We've written extensive documentation for the plugins and tools we're using, varying from Redux to ESLint."
           />
           <Feature
-            Icon={FigmaIcon}
+            Icon={ClockIcon}
             title="Figma/Sketch Assets"
             description="Designers, we've got you covered. Sketch & Figma files are available in the Standard Plus and Extended License."
           />
