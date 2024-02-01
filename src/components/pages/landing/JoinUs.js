@@ -44,7 +44,7 @@ function JoinUs() {
             <Spacer mb={4} />
 
             <Button
-              href="https://mui.com/store/items/mira-pro-react-material-admin-dashboard/"
+              href="/auth/sign-in"
               variant="contained"
               color="primary"
               size="large"
