@@ -105,7 +105,6 @@ function Integrations() {
           <Button
             component={Link}
             href="/auth/sign-in"
-            target="_blank"
             variant="contained"
             color="secondary"
             size="large"

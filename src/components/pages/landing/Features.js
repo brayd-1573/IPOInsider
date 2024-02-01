@@ -122,7 +122,6 @@ function Features() {
             variant="contained"
             color="secondary"
             size="large"
-            target="_blank"
           >
             Try our Features
             <ArrowForward />

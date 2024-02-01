@@ -53,7 +53,6 @@ const AppBarComponent = () => (
                   color="inherit"
                   component={Link}
                   href="/dashboard/analytics"
-                  target="_blank"
                 >
                   Dashboard
                 </Button>
@@ -62,7 +61,6 @@ const AppBarComponent = () => (
                   color="inherit"
                   component={Link}
                   href="/pages/pricing"
-                  target="_blank"
                 >
                   Features
                 </Button>
@@ -71,7 +69,6 @@ const AppBarComponent = () => (
                   color="inherit"
                   component={Link}
                   href="/documentation/support"
-                  target="_blank"
                 >
                   Contact Us
                 </Button>
@@ -81,7 +78,6 @@ const AppBarComponent = () => (
                 color="primary"
                 variant="contained"
                 href="/auth/sign-in"
-                target="_blank"
               >
                 Login
               </Button>

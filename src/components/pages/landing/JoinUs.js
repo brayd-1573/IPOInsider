@@ -48,7 +48,6 @@ function JoinUs() {
               variant="contained"
               color="primary"
               size="large"
-              target="_blank"
             >
               Use IPO Insider
             </Button>
