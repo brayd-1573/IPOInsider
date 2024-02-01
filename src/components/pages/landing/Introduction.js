@@ -181,7 +181,7 @@ function Introduction() {
               style={{ opacity: triggerAnimation ? 1 : 0 }}
             >
               <ImageWrapper>
-                <Link href="/auth/sign-in" target="_blank">
+                <Link href="/auth/sign-in">
                   <Image
                     alt="IPO Insider - IPO Analytics Dashboard"
                     src={`/static/img/screenshots/dashboard-analytics-large.jpg`}
