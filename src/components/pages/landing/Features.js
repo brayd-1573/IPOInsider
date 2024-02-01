@@ -94,9 +94,9 @@ function Features() {
             description="Leverage our advanced machine learning model to predict IPO success, utilizing historical data and market trends for informed decision-making."
           />
           <Feature
-            Icon={BookIcon}
-            title="Research Notes"
-            description="Efficiently organize and access your research notes, providing a centralized platform for detailed company analyses and market observations."
+            Icon={ClockIcon}
+            title="Real-Time Data"
+            description="Get real-time updates and live market data, ensuring you have the most current information at your fingertips for quick and accurate analysis."
           />
           <Feature
             Icon={CalendarIcon}
@@ -109,9 +109,9 @@ function Features() {
             description="Access curated news articles and updates, keeping you informed on the latest IPO developments and market trends in real-time."
           />
           <Feature
-            Icon={ClockIcon}
-            title="Real-Time Data"
-            description="Get real-time updates and live market data, ensuring you have the most current information at your fingertips for quick and accurate analysis."
+            Icon={BookIcon}
+            title="Research Notes"
+            description="Efficiently organize and access your research notes, providing a centralized platform for detailed company analyses and market observations."
           />
         </Grid>
 
