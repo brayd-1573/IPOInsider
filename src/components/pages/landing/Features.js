@@ -85,33 +85,33 @@ function Features() {
         <Grid container spacing={6}>
           <Feature
             Icon={ActivityIcon}
-            title="Modern Technology Stack"
-            description="Mira is built to make your life easier. Theme provider, build tooling, documentation, and 400+ components. "
+            title="Customizable Dashboards"
+            description="Experience personalized dashboards tailored for IPO analysis, offering a range of widgets and data visualization tools for in-depth market insights."
           />
           <Feature
             Icon={CpuIcon}
-            title="Multiple Plugins"
-            description="Various third-party plugins are fully integrated, like Chart.js, FullCalendar, WYSIWYG Editors, Formik and Yup."
+            title="IPO Prediction Model"
+            description="Leverage our advanced machine learning model to predict IPO success, utilizing historical data and market trends for informed decision-making."
           />
           <Feature
             Icon={BookIcon}
-            title="Dev-to-Dev Support"
-            description="Our themes are supported by specialists who provide quick and effective support. Usually an email reply takes <24h."
+            title="Research Notes"
+            description="Efficiently organize and access your research notes, providing a centralized platform for detailed company analyses and market observations."
           />
           <Feature
             Icon={CalendarIcon}
-            title="Authentication Examples"
-            description="The package comes with fully working authentication examples, including Firebase, Auth0, AWS Cognito and JWT."
+            title="IPO Master Calendar"
+            description="Stay ahead with our comprehensive IPO calendar, tracking upcoming listings with detailed information to plan your investment strategies."
           />
           <Feature
             Icon={TvIcon}
-            title="Detailed Documentation"
-            description="We've written extensive documentation for the plugins and tools we're using, varying from Redux to ESLint."
+            title="News Articles"
+            description="Access curated news articles and updates, keeping you informed on the latest IPO developments and market trends in real-time."
           />
           <Feature
             Icon={ClockIcon}
-            title="Figma/Sketch Assets"
-            description="Designers, we've got you covered. Sketch & Figma files are available in the Standard Plus and Extended License."
+            title="Real-Time Data"
+            description="Get real-time updates and live market data, ensuring you have the most current information at your fingertips for quick and accurate analysis."
           />
         </Grid>
 
