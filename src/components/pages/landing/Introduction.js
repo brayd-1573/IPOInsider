@@ -164,7 +164,6 @@ function Introduction() {
                   color="secondary"
                   size="large"
                 >
-                  <Visibility />
                   Try now
                   <ArrowForward />
                 </Button>
