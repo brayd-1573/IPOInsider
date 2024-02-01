@@ -144,73 +144,31 @@ function Introduction() {
         <Grid container alignItems="center" justifyContent="center" spacing={4}>
           <Grid item xs={12} sm={9} md={8} lg={8}>
             <Content>
-              <Version variant="body2">v4.5.0</Version>
               <Title variant="h1" gutterBottom>
-                The simplest and fastest way to build your next{" "}
-                <span>Material UI</span> dashboard or app.
+                Explore IPO Insights with <span>IPO Insider</span>
               </Title>
               <Grid container justifyContent="center" spacing={4}>
                 <Grid item xs={12} lg={10}>
                   <Subtitle color="textSecondary">
-                    Mira comes with hundreds of UI elements, forms, tables,
-                    charts, pages and icons that helps you to create your web
-                    apps or applications faster.
+                    IPO Insider brings you a comprehensive suite of tools for
+                    IPO analysis, including dynamic dashboards, real-time market
+                    data, and predictive analytics, all designed to enhance your
+                    investment strategies.
                   </Subtitle>
                 </Grid>
               </Grid>
               <Box my={6}>
                 <Button
-                  href="#demos"
+                  href="/auth/sign-in"
                   variant="contained"
                   color="secondary"
                   size="large"
                 >
                   <Visibility />
-                  Live Demo
+                  Try now
                   <ArrowForward />
                 </Button>
               </Box>
-
-              <Typography variant="body2" color="textSecondary">
-                Available for:
-              </Typography>
-              <div
-                className={`animate__animated ${
-                  triggerAnimation ? "animate__fadeIn" : ""
-                }`}
-                style={{ opacity: triggerAnimation ? 1 : 0 }}
-              >
-                <Box my={3}>
-                  <Tooltip title="JavaScript">
-                    <BrandIcon
-                      alt="JavaScript"
-                      src="/static/img/brands/javascript.svg"
-                      style={{ width: "40px" }}
-                    />
-                  </Tooltip>
-                  <Tooltip title="TypeScript">
-                    <BrandIcon
-                      alt="TypeScript"
-                      src="/static/img/brands/typescript.svg"
-                      style={{ width: "40px", background: "#FFF" }}
-                    />
-                  </Tooltip>
-                  <Tooltip title="Figma">
-                    <BrandIcon
-                      alt="Figma"
-                      src="/static/img/brands/figma.svg"
-                      style={{ width: "22px" }}
-                    />
-                  </Tooltip>
-                  <Tooltip title="Sketch">
-                    <BrandIcon
-                      alt="Sketch"
-                      src="/static/img/brands/sketch.svg"
-                      style={{ width: "34px" }}
-                    />
-                  </Tooltip>
-                </Box>
-              </div>
             </Content>
           </Grid>
         </Grid>
@@ -223,9 +181,9 @@ function Introduction() {
               style={{ opacity: triggerAnimation ? 1 : 0 }}
             >
               <ImageWrapper>
-                <Link href="/dashboard/analytics" target="_blank">
+                <Link href="/auth/sign-in" target="_blank">
                   <Image
-                    alt="Mira - React Material Admin Dashboard"
+                    alt="IPO Insider - IPO Analytics Dashboard"
                     src={`/static/img/screenshots/dashboard-analytics-large.jpg`}
                   />
                 </Link>
