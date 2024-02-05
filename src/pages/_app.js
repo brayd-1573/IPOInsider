@@ -22,9 +22,9 @@ import useTheme from "../hooks/useTheme";
 import { store } from "../redux/store";
 import createEmotionCache from "../utils/createEmotionCache";
 
-//import { AuthProvider } from "../contexts/JWTContext";
+// import { AuthProvider } from "../contexts/JWTContext";
 // import { AuthProvider } from "../contexts/FirebaseAuthContext";
-import { AuthProvider } from "../contexts/Auth0Context";
+ import { AuthProvider } from "../contexts/Auth0Context";
 // import { AuthProvider } from "../contexts/CognitoContext";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,32 +37,27 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
   const getLayout = Component.getLayout ?? ((page) => page);
 
   return (
-    <AuthProvider>
-      <>
-        <style jsx global>{`
-          html {
-            font-family: ${inter.style.fontFamily};
-          }
-        `}</style>
-        <CacheProvider value={emotionCache}>
-          <HelmetProvider>
-            <Helmet
-              titleTemplate="%s | IPO Insider"
-              defaultTitle="IPO Insider"
-            />
-            <Provider store={store}>
-              <LocalizationProvider dateAdapter={AdapterDateFns}>
-                <MuiThemeProvider theme={createTheme(theme)}>
-                  <AuthProvider>
-                    {getLayout(<Component {...pageProps} />)}
-                  </AuthProvider>
-                </MuiThemeProvider>
-              </LocalizationProvider>
-            </Provider>
-          </HelmetProvider>
-        </CacheProvider>
-      </>
-    </AuthProvider>
+    <>
+      <style jsx global>{`
+        html {
+          font-family: ${inter.style.fontFamily};
+        }
+      `}</style>
+      <CacheProvider value={emotionCache}>
+        <HelmetProvider>
+          <Helmet titleTemplate="%s | IPO Insider" defaultTitle="IPO Insider" />
+          <Provider store={store}>
+            <LocalizationProvider dateAdapter={AdapterDateFns}>
+              <MuiThemeProvider theme={createTheme(theme)}>
+                <AuthProvider>
+                  {getLayout(<Component {...pageProps} />)}
+                </AuthProvider>
+              </MuiThemeProvider>
+            </LocalizationProvider>
+          </Provider>
+        </HelmetProvider>
+      </CacheProvider>
+    </>
   );
 }
 
