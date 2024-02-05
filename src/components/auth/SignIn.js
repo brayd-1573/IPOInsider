@@ -95,7 +95,7 @@ function SignIn() {
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
           />
-          <Button
+          <Button onClick={() => signIn()}
             type="submit"
             fullWidth
             variant="contained"
