@@ -24,7 +24,7 @@ import createEmotionCache from "../utils/createEmotionCache";
 
 // import { AuthProvider } from "../contexts/JWTContext";
 // import { AuthProvider } from "../contexts/FirebaseAuthContext";
- import { AuthProvider } from "../contexts/Auth0Context";
+import { AuthProvider } from "../contexts/Auth0Context";
 // import { AuthProvider } from "../contexts/CognitoContext";
 
 const inter = Inter({ subsets: ["latin"] });
