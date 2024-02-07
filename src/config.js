@@ -12,6 +12,10 @@ export const firebaseConfig = {
 export const auth0Config = {
   clientId: process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID,
   domain: process.env.NEXT_PUBLIC_AUTH0_DOMAIN,
+  baseURL: process.env.NEXT_PUBLIC_AUTH0_ISSUER_BASE_URL,
+  secret: process.env.NEXT_PUBLIC_AUTH0_SECRET,
+  issuerBaseURL: process.env.NEXT_PUBLIC_AUTH0_BASE_URL,
+  clientSecret: process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID,
 };
 
 export const cognitoConfig = {
