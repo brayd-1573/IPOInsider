@@ -9,7 +9,7 @@ export default async function callback(req, res) {
 
   try {
     await auth0Client.handleRedirectCallback(req.url);
-    res.writeHead(302, { Location: '/dashboard/analytics' });
+    res.writeHead(302, { Location: "/dashboard/analytics" });
     res.end();
   } catch (error) {
     console.error(error);
