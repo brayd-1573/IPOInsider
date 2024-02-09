@@ -50,7 +50,7 @@ function AuthProvider({ children }) {
         auth0Client = new Auth0Client({
           client_id: auth0Config.clientId || "",
           domain: auth0Config.domain || "",
-          redirect_uri: window.location.origin,
+          redirect_uri: `${window.location.origin}/api/auth/callback`,
         });
 
         await auth0Client.checkSession();
