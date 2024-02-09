@@ -40,7 +40,7 @@ function SignIn() {
       })}
       onSubmit={async (values, { setErrors, setStatus, setSubmitting }) => {
         try {
-          await signIn()/*(values.email, values.password)*/;
+          await signIn() /*(values.email, values.password)*/;
 
           router.push("/private");
         } catch (error) {
