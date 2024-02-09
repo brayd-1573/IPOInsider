@@ -1,5 +1,5 @@
 import { Auth0Client } from "@auth0/auth0-spa-js";
-import { auth0Config } from "../../config";
+import { auth0Config } from "../../../config";
 
 export default async function callback(req, res) {
   const auth0Client = new Auth0Client({
