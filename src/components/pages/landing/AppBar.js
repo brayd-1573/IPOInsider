@@ -60,14 +60,6 @@ const AppBarComponent = () => (
                   ml={2}
                   color="inherit"
                   component={Link}
-                  href="/pages/pricing"
-                >
-                  Features
-                </Button>
-                <Button
-                  ml={2}
-                  color="inherit"
-                  component={Link}
                   href="/documentation/support"
                 >
                   Contact Us
@@ -77,7 +69,7 @@ const AppBarComponent = () => (
                 ml={2}
                 color="primary"
                 variant="contained"
-                href="/auth/sign-in"
+                href="/auth/sign-up"
               >
                 Login
               </Button>
