@@ -141,11 +141,12 @@ function SignUp() {
             my={3}
           />
           <Button
-            type="submit"
+            onClick={() => signUp()}
+            //type="submit"
             fullWidth
             variant="contained"
             color="primary"
-            disabled={isSubmitting}
+            //disabled={isSubmitting}
           >
             Sign up
           </Button>
