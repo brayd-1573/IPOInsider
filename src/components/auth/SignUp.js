@@ -150,6 +150,11 @@ function SignUp() {
           >
             Sign up
           </Button>
+          <Link href="/auth/sign-in">
+            <Button fullWidth color="primary">
+              Already have an account?
+            </Button>
+          </Link>
         </form>
       )}
     </Formik>

@@ -105,6 +105,11 @@ function SignIn() {
           >
             Sign in
           </Button>
+          <Link href="/auth/sign-up">
+            <Button fullWidth color="primary">
+              Don't have an account?
+            </Button>
+          </Link>
           <Link href="/auth/reset-password">
             <Button fullWidth color="primary">
               Forgot password
