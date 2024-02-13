@@ -2,6 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import * as Yup from "yup";
 import { Formik } from "formik";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 import {
