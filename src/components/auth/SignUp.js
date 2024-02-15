@@ -18,6 +18,10 @@ const Alert = styled(MuiAlert)(spacing);
 
 const TextField = styled(MuiTextField)(spacing);
 
+const handleSignUp = () => {
+  signIn({ screen_hint: "signup" });
+};
+
 function SignUp() {
   const router = useRouter();
   const { signUp } = useAuth();
@@ -142,12 +146,10 @@ function SignUp() {
             my={3}
           />
           <Button
-            onClick={() => signUp()}
-            //type="submit"
+            onClick={handleSignUp}
             fullWidth
             variant="contained"
             color="primary"
-            //disabled={isSubmitting}
           >
             Sign up
           </Button>

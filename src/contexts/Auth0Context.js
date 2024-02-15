@@ -82,8 +82,8 @@ function AuthProvider({ children }) {
     initialize();
   }, []);
 
-  const signIn = async () => {
-    await auth0Client?.loginWithPopup();
+  const signIn = async (options = {}) => {
+    await auth0Client?.loginWithRedirect(options); //auth0Client?.loginWithPopup();
     const isAuthenticated = await auth0Client?.isAuthenticated();
 
     if (isAuthenticated) {
