@@ -66,19 +66,10 @@ const Project = ({ image, title, description, chip }) => {
         <Typography mb={4} color="textSecondary" component="p">
           {description}
         </Typography>
-
-        <AvatarGroup max={3}>
-          <Avatar alt="Avatar" src="/static/img/avatars/avatar-1.jpg" />
-          <Avatar alt="Avatar" src="/static/img/avatars/avatar-2.jpg" />
-          <Avatar alt="Avatar" src="/static/img/avatars/avatar-3.jpg" />
-        </AvatarGroup>
       </CardContent>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+          See Article
         </Button>
       </CardActions>
     </Card>
