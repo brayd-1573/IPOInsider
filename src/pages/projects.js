@@ -93,6 +93,7 @@ function Projects() {
             title="Landing page redesign"
             description="Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
             chip={<Chip label="Finished" color="success" />}
+            image="/static/img/unsplash/unsplash-1.jpg"
           />
         </Grid>
         <Grid item xs={12} lg={6} xl={3}>
@@ -100,6 +101,7 @@ function Projects() {
             title="Company posters"
             description="Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa."
             chip={<Chip label="In progress" color="warning" />}
+            image="/static/img/unsplash/unsplash-1.jpg"
           />
         </Grid>
         <Grid item xs={12} lg={6} xl={3}>
@@ -107,6 +109,7 @@ function Projects() {
             title="Product page design"
             description="Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
             chip={<Chip label="Finished" color="success" />}
+            image="/static/img/unsplash/unsplash-1.jpg"
           />
         </Grid>
         <Grid item xs={12} lg={6} xl={3}>
@@ -114,6 +117,7 @@ function Projects() {
             title="Upgrade CRM software"
             description="Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris."
             chip={<Chip label="In progress" color="warning" />}
+            image="/static/img/unsplash/unsplash-1.jpg"
           />
         </Grid>
         <Grid item xs={12} lg={6} xl={3}>
