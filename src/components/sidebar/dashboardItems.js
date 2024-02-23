@@ -9,7 +9,7 @@ import {
 } from "react-feather";
 
 const pagesSection = [
-  {
+  /*{
     href: "/dashboard",
     icon: Activity,
     title: "Dashboards",
@@ -27,7 +27,7 @@ const pagesSection = [
         title: "SaaS",
       },
     ],
-  },
+  },*/
   /*{
     href: "/pages",
     icon: Layout,
@@ -74,7 +74,7 @@ const pagesSection = [
         title: "Detail",
       },
     ],
-  },*/
+  },
   {
     href: "/projects",
     icon: Cpu,
@@ -86,7 +86,7 @@ const pagesSection = [
     icon: BookOpen,
     title: "Research",
     badge: "17",
-  },
+  },*/
   {
     href: "/calendar",
     icon: Calendar,
@@ -289,11 +289,11 @@ const pagesSection = [
 ];*/
 
 const docsSection = [
-  {
+  /*{
     href: "/documentation/welcome",
     icon: CreditCard,
     title: "Pricing",
-  },
+  },*/
   {
     href: "/documentation/welcome",
     icon: Settings,
