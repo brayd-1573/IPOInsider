@@ -96,7 +96,7 @@ const pagesSection = [
     href: "/projects",
     icon: Tv,
     title: "News",
-    badge: "8",
+    //badge: "8",
   },
   /*{
     href: "/auth",

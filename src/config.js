@@ -22,3 +22,7 @@ export const cognitoConfig = {
   userPoolId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_ID,
   clientId: process.env.NEXT_PUBLIC_COGNITO_CLIENT_ID,
 };
+
+export const apiKeys = {
+  newsApiKey: process.env.NEXT_NEWS_API_KEY,
+}
