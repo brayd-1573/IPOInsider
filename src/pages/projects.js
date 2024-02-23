@@ -94,16 +94,6 @@ function Projects() {
         News Articles
       </Typography>
 
-      <Breadcrumbs aria-label="Breadcrumb" mt={2}>
-        <Link component={NextLink} href="/">
-          Dashboard
-        </Link>
-        <Link component={NextLink} href="/">
-          Pages
-        </Link>
-        <Typography>Projects</Typography>
-      </Breadcrumbs>
-
       <Divider my={6} />
 
       <Grid container spacing={6}>
