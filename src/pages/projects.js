@@ -91,7 +91,7 @@ function Projects() {
       <Helmet title="Projects" />
 
       <Typography variant="h3" gutterBottom display="inline">
-        Projects
+        News Articles
       </Typography>
 
       <Breadcrumbs aria-label="Breadcrumb" mt={2}>

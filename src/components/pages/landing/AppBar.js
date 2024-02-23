@@ -52,7 +52,7 @@ const AppBarComponent = () => (
                   ml={2}
                   color="inherit"
                   component={Link}
-                  href="/dashboard/analytics"
+                  href="/calendar"
                 >
                   Dashboard
                 </Button>
