@@ -80,13 +80,12 @@ const pagesSection = [
     icon: Cpu,
     title: "Prediction Model",
     badge: "Beta",
-  },
-  {
-    href: "/tasks",
-    icon: BookOpen,
-    title: "Research",
-    badge: "17",
   },*/
+  {
+    href: "/notes",
+    icon: BookOpen,
+    title: "Research Notes",
+  },
   {
     href: "/calendar",
     icon: Calendar,
