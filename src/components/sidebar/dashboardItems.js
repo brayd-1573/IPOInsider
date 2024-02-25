@@ -93,7 +93,7 @@ const pagesSection = [
     title: "IPO Calendar",
   },
   {
-    href: "/projects",
+    href: "/articles",
     icon: Tv,
     title: "News",
     //badge: "8",
