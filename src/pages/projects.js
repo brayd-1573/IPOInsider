@@ -52,7 +52,7 @@ const AvatarGroup = styled(MuiAvatarGroup)`
   margin-left: ${(props) => props.theme.spacing(2)};
 `;
 
-const Project = ({ image, title, description, chip }) => {
+/*const Project = ({ image, title, description, chip }) => {
   return (
     <Card>
       {image ? <CardMedia image={image} title="Contemplative Reptile" /> : null}
@@ -161,4 +161,76 @@ Projects.getLayout = function getLayout(page) {
   return <DashboardLayout>{page}</DashboardLayout>;
 };
 
-export default Projects;
+export default Projects;*/
+
+const Article = ({ image, title, description, chip, url }) => {
+  return (
+    <Card>
+      {image && <CardMedia image={image} title={title} />}
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="h2">
+          {title}
+        </Typography>
+        {chip}
+        <Typography mb={4} color="textSecondary" component="p">
+          {description}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button
+          size="small"
+          color="primary"
+          component="a"
+          href={url}
+          target="_blank"
+        >
+          See Article
+        </Button>
+      </CardActions>
+    </Card>
+  );
+};
+
+export async function getServerSideProps() {
+  const res = await fetch(
+    "https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=16&apiKey=c4fbef2682f24ef595e3b1630a353381"
+  );
+  const data = await res.json();
+
+  return {
+    props: {
+      articles: data.articles,
+    },
+  };
+}
+
+function Articles({ articles }) {
+  return (
+    <React.Fragment>
+      <Helmet title="News Articles" />
+      <Typography variant="h3" gutterBottom display="inline">
+        News Articles
+      </Typography>
+      <Divider my={6} />
+      <Grid container spacing={6}>
+        {articles.map((article, index) => (
+          <Grid item xs={12} lg={6} xl={3} key={index}>
+            <Article
+              title={article.title}
+              description={article.description}
+              chip={<Chip label={article.source.name} color="primary" />}
+              image={article.urlToImage}
+              url={article.url}
+            />
+          </Grid>
+        ))}
+      </Grid>
+    </React.Fragment>
+  );
+}
+
+Articles.getLayout = function getLayout(page) {
+  return <DashboardLayout>{page}</DashboardLayout>;
+};
+
+export default Articles;
