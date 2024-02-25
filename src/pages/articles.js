@@ -52,121 +52,16 @@ const AvatarGroup = styled(MuiAvatarGroup)`
   margin-left: ${(props) => props.theme.spacing(2)};
 `;
 
-/*const Project = ({ image, title, description, chip }) => {
-  return (
-    <Card>
-      {image ? <CardMedia image={image} title="Contemplative Reptile" /> : null}
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
-          {title}
-        </Typography>
-
-        {chip}
-
-        <Typography mb={4} color="textSecondary" component="p">
-          {description}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small" color="primary">
-          See Article
-        </Button>
-      </CardActions>
-    </Card>
-  );
-};
-
-function Projects() {
-  return (
-    <React.Fragment>
-      <Helmet title="Projects" />
-
-      <Typography variant="h3" gutterBottom display="inline">
-        News Articles
-      </Typography>
-
-      <Divider my={6} />
-
-      <Grid container spacing={6}>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Landing page redesign"
-            description="Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
-            chip={<Chip label="Finished" color="success" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Company posters"
-            description="Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa."
-            chip={<Chip label="In progress" color="warning" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Product page design"
-            description="Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
-            chip={<Chip label="Finished" color="success" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Upgrade CRM software"
-            description="Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris."
-            chip={<Chip label="In progress" color="warning" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Fix form validation"
-            description="Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris."
-            chip={<Chip label="In progress" color="warning" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="New company logo"
-            description="Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
-            chip={<Chip label="On hold" color="error" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Upgrade to latest Maps API"
-            description="Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris."
-            chip={<Chip label="Finished" color="success" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-        <Grid item xs={12} lg={6} xl={3}>
-          <Project
-            title="Refactor backend templates"
-            description="Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa."
-            chip={<Chip label="On hold" color="error" />}
-            image="/static/img/unsplash/unsplash-1.jpg"
-          />
-        </Grid>
-      </Grid>
-    </React.Fragment>
-  );
-}
-
-Projects.getLayout = function getLayout(page) {
-  return <DashboardLayout>{page}</DashboardLayout>;
-};
-
-export default Projects;*/
-
 const Article = ({ image, title, description, chip, url }) => {
   return (
     <Card>
-      {image && <CardMedia image={image} title={title} />}
+      {image && (
+        <NextLink href={url} passHref>
+          <a target="_blank" rel="noopener noreferrer">
+            <CardMedia image={image} title={title} />
+          </a>
+        </NextLink>
+      )}
       <CardContent>
         <Typography gutterBottom variant="h5" component="h2">
           {title}
@@ -207,9 +102,15 @@ export async function getServerSideProps() {
 function Articles({ articles }) {
   return (
     <React.Fragment>
-      <Helmet title="News Articles" />
-      <Typography variant="h3" gutterBottom display="inline">
-        News Articles
+      <Helmet title="Latest IPO News" />
+      <Typography
+        variant="h2"
+        gutterBottom
+        display="inline"
+        align="center"
+        sx={{ width: "100%", my: 4 }}
+      >
+        Latest IPO News
       </Typography>
       <Divider my={6} />
       <Grid container spacing={6}>
