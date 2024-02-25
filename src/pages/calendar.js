@@ -23,7 +23,7 @@ import {
 } from "@mui/material";
 import { spacing } from "@mui/system";
 
-import demoEvents from "../mocks/demo-events.json";
+import demoEvents from "../mocks/calendar-events.json";
 
 const calendarStyle = (props) => css`
   --fc-small-font-size: 1em;
