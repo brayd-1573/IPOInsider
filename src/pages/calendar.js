@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 import NextLink from "next/link";
 import { Helmet } from "react-helmet-async";
+import { formatISO } from "date-fns";
 
 import { darken, lighten } from "polished";
 import FullCalendar from "@fullcalendar/react";
@@ -74,13 +75,15 @@ const Divider = styled(MuiDivider)(spacing);
 const Breadcrumbs = styled(MuiBreadcrumbs)(spacing);
 
 function EmptyCard() {
+  const today = formatISO(new Date(), { representation: "date" });
+
   return (
     <Card mb={6}>
       <CardContent p={6}>
         <FullCalendarWrapper>
           <FullCalendar
             initialView="dayGridMonth"
-            initialDate="2023-02-14"
+            initialDate={today}
             plugins={[dayGridPlugin, interactionPlugin]}
             events={demoEvents}
             editable={true}
