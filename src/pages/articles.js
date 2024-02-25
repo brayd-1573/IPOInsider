@@ -22,8 +22,6 @@ import {
 import { AvatarGroup as MuiAvatarGroup } from "@mui/material";
 import { spacing } from "@mui/system";
 
-import { apiKeys } from "../config";
-
 const Breadcrumbs = styled(MuiBreadcrumbs)(spacing);
 
 const Card = styled(MuiCard)(spacing);
@@ -89,10 +87,9 @@ const Article = ({ image, title, description, chip, url }) => {
 };
 
 export async function getServerSideProps() {
-  const newsApiKey = process.env.NEXT_PUBLIC_NEWS_API_KEY;
 
   const res = await fetch(
-    `https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=24&apiKey=${newsApiKey}`
+    `https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=24&apiKey=c4fbef2682f24ef595e3b1630a353381`
   );
   const data = await res.json();
 
