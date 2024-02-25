@@ -89,7 +89,7 @@ const Article = ({ image, title, description, chip, url }) => {
 };
 
 export async function getServerSideProps() {
-  const newsApiKey = apiKeys.newsApiKey;
+  const newsApiKey = process.env.NEXT_PUBLIC_NEWS_API_KEY;
 
   const res = await fetch(
     `https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=24&apiKey=${newsApiKey}`
