@@ -92,7 +92,7 @@ export async function getServerSideProps() {
   const newsApiKey = apiKeys.newsApiKey;
 
   const res = await fetch(
-    `https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=16&apiKey=${newsApiKey}`
+    `https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=24&apiKey=c4fbef2682f24ef595e3b1630a353381`
   );
   const data = await res.json();
 
