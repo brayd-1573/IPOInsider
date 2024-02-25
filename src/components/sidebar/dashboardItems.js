@@ -80,12 +80,12 @@ const pagesSection = [
     icon: Cpu,
     title: "Prediction Model",
     badge: "Beta",
-  },*/
+  },
   {
     href: "/notes",
     icon: BookOpen,
     title: "Research Notes",
-  },
+  },*/
   {
     href: "/calendar",
     icon: Calendar,
@@ -302,7 +302,7 @@ const docsSection = [
 
 const navItems = [
   {
-    title: "Main Features",
+    title: "Features",
     pages: pagesSection,
   },
   /*{
@@ -310,7 +310,7 @@ const navItems = [
     pages: elementsSection,
   },*/
   {
-    title: "Account Management",
+    title: "Management",
     pages: docsSection,
   },
 ];
