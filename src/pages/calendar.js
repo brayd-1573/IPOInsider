@@ -99,20 +99,16 @@ function EmptyCard() {
 function Calendar() {
   return (
     <React.Fragment>
-      <Helmet title="Calendar" />
-      <Typography variant="h3" gutterBottom display="inline">
-        Calendar
+      <Helmet title="IPO Calendar" />
+      <Typography
+        variant="h2"
+        gutterBottom
+        display="inline"
+        align="center"
+        sx={{ width: "100%", my: 4 }}
+      >
+        IPO Master Calendar
       </Typography>
-
-      <Breadcrumbs aria-label="Breadcrumb" mt={2}>
-        <Link component={NextLink} href="/">
-          Dashboard
-        </Link>
-        <Link component={NextLink} href="/">
-          Pages
-        </Link>
-        <Typography>Calendar</Typography>
-      </Breadcrumbs>
 
       <Divider my={6} />
 
