@@ -74,7 +74,7 @@ const Divider = styled(MuiDivider)(spacing);
 
 const Breadcrumbs = styled(MuiBreadcrumbs)(spacing);
 
-function EmptyCard() {
+function EmptyCard({ events }) {
   const today = formatISO(new Date(), { representation: "date" });
 
   return (
@@ -85,7 +85,7 @@ function EmptyCard() {
             initialView="dayGridMonth"
             initialDate={today}
             plugins={[dayGridPlugin, interactionPlugin]}
-            events={demoEvents}
+            events={events}
             editable={true}
             headerToolbar={{
               left: "prev,next",
@@ -99,7 +99,30 @@ function EmptyCard() {
   );
 }
 
-function Calendar() {
+export async function getServerSideProps() {
+  const startDate = "2020-12-31";
+  const endDate = new Date().toISOString().split("T")[0];
+
+  const res = await fetch(
+    `https://finnhub.io/api/v1/calendar/ipo?from=${startDate}&to=${endDate}&token=clgin01r01qha7p2nbb0clgin01r01qha7p2nbbg`
+  );
+  const data = await res.json();
+
+  const formattedEvents = data.ipoCalendar.map((ipoEvent) => {
+    return {
+      title: `${ipoEvent.name} (${ipoEvent.symbol})`,
+      start: ipoEvent.date,
+    };
+  });
+
+  return {
+    props: {
+      events: formattedEvents,
+    },
+  };
+}
+
+function Calendar({ events }) {
   return (
     <React.Fragment>
       <Helmet title="IPO Calendar" />
@@ -117,7 +140,7 @@ function Calendar() {
 
       <Grid container spacing={6}>
         <Grid item xs={12}>
-          <EmptyCard />
+          <EmptyCard events={events} />
         </Grid>
       </Grid>
     </React.Fragment>
