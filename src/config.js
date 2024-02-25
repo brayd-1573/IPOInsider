@@ -24,5 +24,5 @@ export const cognitoConfig = {
 };
 
 export const apiKeys = {
-  newsApiKey: process.env.NEXT_NEWS_API_KEY,
+  newsApiKey: process.env.NEXT_PUBLIC_NEWS_API_KEY,
 };
