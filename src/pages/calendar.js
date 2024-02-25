@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 import NextLink from "next/link";
 import { Helmet } from "react-helmet-async";
-import { formatISO } from "date-fns";
+import { subYears, addYears, formatISO } from "date-fns";
 
 import { darken, lighten } from "polished";
 import FullCalendar from "@fullcalendar/react";
@@ -100,8 +100,12 @@ function EmptyCard({ events }) {
 }
 
 export async function getServerSideProps() {
-  const startDate = "2020-12-31";
-  const endDate = new Date().toISOString().split("T")[0];
+  const startDate = formatISO(subYears(new Date(), 1), {
+    representation: "date",
+  });
+  const endDate = formatISO(addYears(new Date(), 1), {
+    representation: "date",
+  });
 
   const res = await fetch(
     `https://finnhub.io/api/v1/calendar/ipo?from=${startDate}&to=${endDate}&token=clgin01r01qha7p2nbb0clgin01r01qha7p2nbbg`
