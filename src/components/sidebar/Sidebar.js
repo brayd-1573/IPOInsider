@@ -65,7 +65,7 @@ const BrandChip = styled(Chip)`
   }
 `;
 
-const Sidebar = ({ items, showFooter = true, ...rest }) => {
+const Sidebar = ({ items, showFooter = false, ...rest }) => {
   return (
     <Drawer variant="permanent" {...rest}>
       <Brand component={Link} href="/">
