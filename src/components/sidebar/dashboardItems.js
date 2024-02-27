@@ -74,14 +74,14 @@ const pagesSection = [
         title: "Detail",
       },
     ],
-  },
+  },*/
   {
-    href: "/projects",
+    href: "/model",
     icon: Cpu,
     title: "Prediction Model",
     badge: "Beta",
   },
-  {
+  /*{
     href: "/notes",
     icon: BookOpen,
     title: "Research Notes",
