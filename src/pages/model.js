@@ -26,9 +26,9 @@ function Model() {
         IPO Prediction Model
       </Typography>
       <Divider my={6} />
-      {/* placeholder for future content */}
+      {/* future content */}
       <Grid container spacing={6}>
-        {/* add model components here */}
+        {/* model components here */}
       </Grid>
     </React.Fragment>
   );
