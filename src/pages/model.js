@@ -34,9 +34,7 @@ function Model() {
   );
 }
 
-function getPrediction() {
-  
-}
+function getPrediction() {}
 
 Model.getLayout = function getLayout(page) {
   return <DashboardLayout>{page}</DashboardLayout>;
