@@ -14,10 +14,7 @@ import {
 
 import { Menu as MenuIcon } from "@mui/icons-material";
 
-import NavbarNotificationsDropdown from "./NavbarNotificationsDropdown";
-//import NavbarMessagesDropdown from "./NavbarMessagesDropdown";
-//import NavbarLanguagesDropdown from "./NavbarLanguagesDropdown";
-import NavbarUserDropdown from "./NavbarUserDropdown";
+import NavbarFilters from "./NavbarFilters";
 
 const AppBar = styled(MuiAppBar)`
   background: ${(props) => props.theme.header.background};
@@ -94,17 +91,7 @@ const Navbar = ({ onDrawerToggle }) => {
               </IconButton>
             </Grid>
             <Grid item>
-              <Search>
-                <SearchIconWrapper>
-                  <SearchIcon />
-                </SearchIconWrapper>
-                <Input placeholder={t("Search")} />
-              </Search>
-            </Grid>
-            <Grid item xs />
-            <Grid item>
-              <NavbarNotificationsDropdown />
-              <NavbarUserDropdown />
+              <NavbarFilters />
             </Grid>
           </Grid>
         </Toolbar>
