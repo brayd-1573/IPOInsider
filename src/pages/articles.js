@@ -88,7 +88,7 @@ const Article = ({ image, title, description, chip, url }) => {
 
 export async function getServerSideProps() {
   const res = await fetch(
-    `https://newsapi.org/v2/everything?q=ipo&sortBy=publishedAt&pageSize=24&language=en&apiKey=c4fbef2682f24ef595e3b1630a353381`
+    `https://newsapi.org/v2/everything?q=stock&sortBy=publishedAt&pageSize=24&language=en&apiKey=c4fbef2682f24ef595e3b1630a353381`
   );
   const data = await res.json();
 
@@ -102,7 +102,7 @@ export async function getServerSideProps() {
 function Articles({ articles }) {
   return (
     <React.Fragment>
-      <Helmet title="Latest IPO News" />
+      <Helmet title="Latest Stock News" />
       <Typography
         variant="h2"
         gutterBottom
@@ -110,7 +110,7 @@ function Articles({ articles }) {
         align="center"
         sx={{ width: "100%", my: 4 }}
       >
-        Latest IPO News
+        Latest Stock News
       </Typography>
       <Divider my={6} />
       <Grid container spacing={6}>
