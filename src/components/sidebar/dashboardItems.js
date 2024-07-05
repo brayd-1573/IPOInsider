@@ -76,16 +76,10 @@ const pagesSection = [
     ],
   },*/
   {
-    href: "/model",
+    href: "/",
     icon: Cpu,
-    title: "Prediction Model",
-    badge: "Beta",
+    title: "Dashboard",
   },
-  /*{
-    href: "/notes",
-    icon: BookOpen,
-    title: "Research Notes",
-  },*/
   {
     href: "/calendar",
     icon: Calendar,
@@ -285,20 +279,20 @@ const pagesSection = [
       },
     ],
   },
-];*/
+];
 
 const docsSection = [
-  /*{
+  {
     href: "/documentation/welcome",
     icon: CreditCard,
     title: "Pricing",
-  },*/
+  },
   {
     href: "/documentation/welcome",
     icon: Settings,
     title: "Settings",
   },
-];
+];*/
 
 const navItems = [
   {
@@ -308,11 +302,11 @@ const navItems = [
   /*{
     title: "Elements",
     pages: elementsSection,
-  },*/
+  },
   {
     title: "Management",
     pages: docsSection,
-  },
+  },*/
 ];
 
 export default navItems;
