@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import { spacing } from "@mui/system";
 
-import Stats from "../../components/dashboard/default/Stats";
+import Stats from "../components/pages/dashboard/default/Stats";
 
 const Divider = styled(MuiDivider)(spacing);
 const Typography = styled(MuiTypography)(spacing);
