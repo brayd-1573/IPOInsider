@@ -15,7 +15,7 @@ const Typography = styled(MuiTypography)(spacing);
 function Index() {
   return (
     <React.Fragment>
-      <Helmet title="Portfolio Optimization Dashboard" />
+      <Helmet title="Portfolio Simulator" />
       <Typography
         variant="h2"
         gutterBottom
@@ -23,7 +23,7 @@ function Index() {
         align="center"
         sx={{ width: "100%", my: 4 }}
       >
-        Portfolio Optimization Dashboard
+        Portfolio Simulator
       </Typography>
       <Divider my={6} />
       {/* future content */}

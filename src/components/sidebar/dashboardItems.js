@@ -78,7 +78,7 @@ const pagesSection = [
   {
     href: "/",
     icon: Cpu,
-    title: "Dashboard",
+    title: "Optimization Dashboard",
   },
   {
     href: "/calendar",
