@@ -1,11 +1,7 @@
 import {
-  BookOpen,
   Calendar,
-  CreditCard,
-  Settings,
   Tv,
-  Activity,
-  Cpu,
+  BarChart2,
 } from "react-feather";
 
 const pagesSection = [
@@ -77,8 +73,8 @@ const pagesSection = [
   },*/
   {
     href: "/",
-    icon: Cpu,
-    title: "Optimization Dashboard",
+    icon: BarChart2,
+    title: "Simulation Dashboard",
   },
   {
     href: "/calendar",

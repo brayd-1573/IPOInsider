@@ -26,10 +26,10 @@ function Index() {
         Portfolio Simulator
       </Typography>
       <Divider my={6} />
-      {/* future content */}
       <Grid container spacing={6}>
         {/* model components here */}
       </Grid>
+      <Divider my={6} />
     </React.Fragment>
   );
 }
