@@ -34,7 +34,6 @@ function Index() {
   );
 }
 
-
 Index.getLayout = function getLayout(page) {
   return <DashboardLayout>{page}</DashboardLayout>;
 };
