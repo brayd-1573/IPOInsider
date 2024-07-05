@@ -1,30 +1,42 @@
 import React from "react";
+import styled from "@emotion/styled";
+import { Helmet } from "react-helmet-async";
+import DashboardLayout from "../layouts/Dashboard";
+import {
+  Typography as MuiTypography,
+  Divider as MuiDivider,
+  Grid,
+} from "@mui/material";
+import { spacing } from "@mui/system";
 
-import PresentationLayout from "../layouts/Presentation";
+const Divider = styled(MuiDivider)(spacing);
+const Typography = styled(MuiTypography)(spacing);
 
-import AppBar from "../components/pages/landing/AppBar";
-import Introduction from "../components/pages/landing/Introduction";
-import Demos from "../components/pages/landing/Demos";
-import Testimonial from "../components/pages/landing/Testimonial";
-import Integrations from "../components/pages/landing/Integrations";
-import Features from "../components/pages/landing/Features";
-import FAQ from "../components/pages/landing/FAQ";
-import JoinUs from "../components/pages/landing/JoinUs";
-
-function Presentation() {
+function Index() {
   return (
     <React.Fragment>
-      <AppBar />
-      <Integrations />
-      <Features />
-      <FAQ />
-      <JoinUs />
+      <Helmet title="Portfolio Optimization Dashboard" />
+      <Typography
+        variant="h2"
+        gutterBottom
+        display="inline"
+        align="center"
+        sx={{ width: "100%", my: 4 }}
+      >
+        Portfolio Optimization Dashboard
+      </Typography>
+      <Divider my={6} />
+      {/* future content */}
+      <Grid container spacing={6}>
+        {/* model components here */}
+      </Grid>
     </React.Fragment>
   );
 }
 
-Presentation.getLayout = function getLayout(page) {
-  return <PresentationLayout>{page}</PresentationLayout>;
+
+Index.getLayout = function getLayout(page) {
+  return <DashboardLayout>{page}</DashboardLayout>;
 };
 
-export default Presentation;
+export default Index;

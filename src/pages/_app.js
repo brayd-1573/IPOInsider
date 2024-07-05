@@ -45,7 +45,7 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
       `}</style>
       <CacheProvider value={emotionCache}>
         <HelmetProvider>
-          <Helmet titleTemplate="%s | IPO Insider" defaultTitle="IPO Insider" />
+          <Helmet titleTemplate="%s | Optimization Dashboard" defaultTitle="Portfolio Simulation" />
           <Provider store={store}>
             <LocalizationProvider dateAdapter={AdapterDateFns}>
               <MuiThemeProvider theme={createTheme(theme)}>
