@@ -1,8 +1,4 @@
-import {
-  Calendar,
-  Tv,
-  BarChart2,
-} from "react-feather";
+import { Calendar, Tv, BarChart2 } from "react-feather";
 
 const pagesSection = [
   /*{
