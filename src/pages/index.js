@@ -17,19 +17,32 @@ function Index() {
     <React.Fragment>
       <Helmet title="Portfolio Simulator" />
       <Typography
-        variant="h2"
+        variant="h6"
         gutterBottom
         display="inline"
         align="center"
         sx={{ width: "100%", my: 4 }}
       >
-        Portfolio Simulator
+        Strategy Performance
       </Typography>
       <Divider my={6} />
       <Grid container spacing={6}>
-        {/* model components here */}
+        {/* components here */}
       </Grid>
       <Divider my={6} />
+      <Typography
+        variant="h6"
+        gutterBottom
+        display="inline"
+        align="center"
+        sx={{ width: "100%", my: 4 }}
+      >
+        Portfolio Results
+      </Typography>
+      <Divider my={6} />
+      <Grid container spacing={6}>
+        {/* components here */}
+      </Grid>
     </React.Fragment>
   );
 }
