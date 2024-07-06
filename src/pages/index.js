@@ -8,6 +8,7 @@ import {
   Grid,
 } from "@mui/material";
 import { spacing } from "@mui/system";
+import { green, red } from "@mui/material/colors";
 
 import Stats from "../components/pages/dashboard/default/Stats";
 
