@@ -10,6 +10,7 @@ import {
 import { spacing } from "@mui/system";
 
 import StrategyResults from "./simulation_results/strategy";
+import PortfolioResults from "./simulation_results/portfolio";
 
 const Divider = styled(MuiDivider)(spacing);
 const Typography = styled(MuiTypography)(spacing);
@@ -39,9 +40,9 @@ function Index() {
       >
         Portfolio Results
       </Typography>
-      <Grid container spacing={6}>
-        {/* components here */}
-      </Grid>
+      <Divider my={6} />
+      <PortfolioResults />
+      <Divider my={6} />
     </React.Fragment>
   );
 }
