@@ -6,7 +6,7 @@ function NavbarFilters() {
   return (
     <React.Fragment>
       <Typography variant="subtitle1" color="textPrimary">
-        Future Filters/Portfolio Updates
+        Portfolio Breakdown, Simulation Filters and Start
       </Typography>
     </React.Fragment>
   );
