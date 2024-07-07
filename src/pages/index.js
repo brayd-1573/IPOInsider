@@ -30,7 +30,6 @@ function Index() {
       </Typography>
       <Divider my={6} />
       <StrategyResults />
-      <Divider my={6} />
       <Typography
         variant="h5"
         gutterBottom
@@ -42,7 +41,6 @@ function Index() {
       </Typography>
       <Divider my={6} />
       <PortfolioResults />
-      <Divider my={6} />
     </React.Fragment>
   );
 }
