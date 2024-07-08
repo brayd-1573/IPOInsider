@@ -11,62 +11,14 @@ import DoughnutChart from "../../components/pages/dashboard/default/DoughnutChar
 import Stats from "../../components/pages/dashboard/default/Stats";
 import Table from "../../components/pages/dashboard/default/Table";
 
-function StrategyResults() {
+function StrategyResults({ data }) {
   return (
     <React.Fragment>
       <Grid container spacing={6}>
-        <Grid item xs={12} sm={12} md={6} lg={3} xl>
-          <Stats
-            title="Sales Today"
-            amount="2.532"
-            chip="Today"
-            percentagetext="+26%"
-            percentagecolor={green[500]}
-          />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={3} xl>
-          <Stats
-            title="Visitors"
-            amount="170.212"
-            chip="Annual"
-            percentagetext="-14%"
-            percentagecolor={red[500]}
-          />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={3} xl>
-          <Stats
-            title="Total Earnings"
-            amount="$ 24.300"
-            chip="Monthly"
-            percentagetext="+18%"
-            percentagecolor={green[500]}
-          />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={3} xl>
-          <Stats
-            title="Pending Orders"
-            amount="45"
-            chip="Yearly"
-            percentagetext="-9%"
-            percentagecolor={red[500]}
-            illustration="/static/img/illustrations/waiting.png"
-          />
-        </Grid>
-        <Grid container spacing={6}>
-          <Grid item xs={12} lg={8}>
-            <LineChart />
-          </Grid>
-          <Grid item xs={12} lg={4}>
-            <DoughnutChart />
-          </Grid>
-        </Grid>
-        <Grid container spacing={6}>
-          <Grid item xs={12} lg={4}>
-            <BarChart />
-          </Grid>
-          <Grid item xs={12} lg={8}>
-            <Table />
-          </Grid>
+        <Grid item xs={12}>
+          <Typography variant="body1">
+            {JSON.stringify(data, null, 2)}
+          </Typography>
         </Grid>
       </Grid>
     </React.Fragment>
