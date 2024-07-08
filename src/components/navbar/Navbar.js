@@ -10,6 +10,7 @@ import {
   AppBar as MuiAppBar,
   IconButton as MuiIconButton,
   Toolbar,
+  Box,
 } from "@mui/material";
 
 import { Menu as MenuIcon } from "@mui/icons-material";
