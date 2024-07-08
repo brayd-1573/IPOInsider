@@ -27,14 +27,13 @@ function NavbarFilters() {
           justifyContent: "space-between",
         }}
       >
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <CandlestickChartIcon />
-          <Typography variant="subtitle1" color="textPrimary">
-            Select a strategy and run the simulation to analyze portfolio
-            performance.
-          </Typography>
-        </Box>
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+        <CandlestickChartIcon />
+        <Typography variant="subtitle1" color="textPrimary">
+          Select a strategy and run the simulation to analyze portfolio
+          performance
+        </Typography>
+        <CandlestickChartIcon />
+        <Box>
           <FormControl size="small" sx={{ minWidth: 120, marginRight: 2 }}>
             <Select
               value={strategy}

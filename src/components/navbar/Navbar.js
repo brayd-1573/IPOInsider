@@ -73,27 +73,16 @@ const Input = styled(InputBase)`
   }
 `;
 
-const Navbar = ({ onDrawerToggle }) => {
-  const { t } = useTranslation();
+const Navbar = () => {
   return (
     <React.Fragment>
       <AppBar position="sticky" elevation={0}>
         <Toolbar>
-          <Grid container alignItems="center">
-            <Grid item sx={{ display: { xs: "block", md: "none" } }}>
-              <IconButton
-                color="inherit"
-                aria-label="Open drawer"
-                onClick={onDrawerToggle}
-                size="large"
-              >
-                <MenuIcon />
-              </IconButton>
-            </Grid>
-            <Grid item>
-              <NavbarFilters />
-            </Grid>
-          </Grid>
+          <Box
+            sx={{ width: "100%", display: "flex", justifyContent: "center" }}
+          >
+            <NavbarFilters />
+          </Box>
         </Toolbar>
       </AppBar>
     </React.Fragment>
