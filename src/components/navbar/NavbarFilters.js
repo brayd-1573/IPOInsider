@@ -7,8 +7,7 @@ import {
   Select,
   Box,
 } from "@mui/material";
-import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
 
 function NavbarFilters() {
   const [strategy, setStrategy] = useState("");
@@ -28,12 +27,12 @@ function NavbarFilters() {
           justifyContent: "space-between",
         }}
       >
-        <ArrowLeftIcon />
+        <CandlestickChartIcon />
         <Typography variant="subtitle1" color="textPrimary">
           Select a strategy and run the simulation to analyze portfolio
           performance
         </Typography>
-        <ArrowRightIcon />
+        <CandlestickChartIcon />
         <Box>
           <FormControl size="small" sx={{ minWidth: 120, marginRight: 2 }}>
             <Select
