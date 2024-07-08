@@ -7,7 +7,7 @@ import {
   Select,
   Box,
 } from "@mui/material";
-import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
+import CandlestickChartIcon from "@mui/icons-material/CandlestickChart";
 
 function NavbarFilters() {
   const [strategy, setStrategy] = useState("");
