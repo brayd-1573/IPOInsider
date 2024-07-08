@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { green, red } from "@mui/material/colors";
 
 import DashboardLayout from "../../layouts/Dashboard";
