@@ -11,7 +11,7 @@ import { spacing } from "@mui/system";
 
 import StrategyResults from "./simulation_results/strategy";
 import PortfolioResults from "./simulation_results/portfolio";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 
 const Divider = styled(MuiDivider)(spacing);
 const Typography = styled(MuiTypography)(spacing);
