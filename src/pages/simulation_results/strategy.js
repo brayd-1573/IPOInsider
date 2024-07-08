@@ -2,7 +2,14 @@ import React from "react";
 import { Grid } from "@mui/material";
 import { green, red } from "@mui/material/colors";
 
+import DashboardLayout from "../../layouts/Dashboard";
+
+import Actions from "../../components/pages/dashboard/default/Actions";
+import BarChart from "../../components/pages/dashboard/default/BarChart";
+import LineChart from "../../components/pages/dashboard/default/LineChart";
+import DoughnutChart from "../../components/pages/dashboard/default/DoughnutChart";
 import Stats from "../../components/pages/dashboard/default/Stats";
+import Table from "../../components/pages/dashboard/default/Table";
 
 function StrategyResults() {
   return (
@@ -45,9 +52,29 @@ function StrategyResults() {
             illustration="/static/img/illustrations/waiting.png"
           />
         </Grid>
+        <Grid container spacing={6}>
+          <Grid item xs={12} lg={8}>
+            <LineChart />
+          </Grid>
+          <Grid item xs={12} lg={4}>
+            <DoughnutChart />
+          </Grid>
+        </Grid>
+        <Grid container spacing={6}>
+          <Grid item xs={12} lg={4}>
+            <BarChart />
+          </Grid>
+          <Grid item xs={12} lg={8}>
+            <Table />
+          </Grid>
+        </Grid>
       </Grid>
     </React.Fragment>
   );
 }
+
+StrategyResults.getLayout = function getLayout(page) {
+  return <DashboardLayout>{page}</DashboardLayout>;
+};
 
 export default StrategyResults;

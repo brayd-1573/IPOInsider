@@ -20,7 +20,7 @@ function Index() {
     <React.Fragment>
       <Helmet title="Portfolio Simulator" />
       <Typography
-        variant="h5"
+        variant="h4"
         gutterBottom
         display="inline"
         align="center"
@@ -31,7 +31,7 @@ function Index() {
       <Divider my={6} />
       <StrategyResults />
       <Typography
-        variant="h5"
+        variant="h4"
         gutterBottom
         display="inline"
         align="center"
