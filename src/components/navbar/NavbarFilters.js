@@ -40,6 +40,7 @@ function NavbarFilters({ onSimulationRun }) {
           Select a strategy and run the simulation to analyze portfolio
           performance
         </Typography>
+        <CandlestickChartIcon />
         <FormControl size="small" sx={{ minWidth: 120 }}>
           <Select
             value={strategy}
